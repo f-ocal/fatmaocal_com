@@ -1,0 +1,429 @@
+// html,body {
+//   width: 100%;
+//   height: 100%;
+//   margin: 0px;
+//   padding: 0px;
+//   overflow-x: hidden;
+// }
+
+header.header {
+  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-size: 17px;
+}
+
+#navbar-ex1-collapse {
+  text-align:center;
+}
+
+ul.nav.navbar-nav {
+  display:inline-block;
+  float:none;
+}
+
+nav.navbar-default {
+  border-color: black;
+  background: black;
+}
+
+nav.navbar-default .navbar-nav > li > a {
+  color: white;
+  margin-left: 10px;
+}
+
+nav.navbar-default .navbar-brand {
+  color: white;
+}
+
+nav.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: black;
+}
+
+#social i.fa.fa-lg {
+  font-weight: bold;
+  margin: 0;
+}
+
+.img-profile {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+section.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+section#homepage h1 { //my name is at the middle of homepage
+  left: 0;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -30px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 85px;
+  line-height: normal;
+  font-family: 'Tangerine', serif;
+  padding-bottom: 40%;
+  // border: 2px solid blue;
+}
+
+section#homepage p { //my name is at the middle of homepage
+  left: 0;
+  line-height: 200px;
+  margin: auto;
+  margin-top: -30px;
+  position: absolute;
+  top: 60%;
+  width: 100%;
+  text-align: center;
+  // color: white;
+  color: #909090;
+  font-size: 50px;
+  line-height: normal;
+  font-family: 'Tangerine', serif;
+  padding-bottom: 40%;
+  // border: 2px solid blue;
+}
+
+section {
+	padding-top:0px;
+  padding-bottom:0px;
+  min-height:calc(100% - 1px);
+}
+
+.v-center {
+  padding-top:10%;
+  font-size:70px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+#contact {
+  background: transparent;
+  color:#dedeff;
+}
+
+section h2#headline { //set it to 40px if you need space between h2 and projects
+  margin-bottom: 0px;
+}
+
+section#my-projects {
+  margin-top: 30px;
+}
+
+#transparent-band h2 {
+  overflow: hidden;
+  min-height: 50%;
+  text-align: center;
+  color: black;
+  font-weight: bolder;;
+  font-size: 90px;
+  padding-top: 75px;
+  padding-bottom: 60px;
+  letter-spacing: 1px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.5;
+  background: transparent;
+  background-color: #e5e5ef;
+  font-family: 'Tangerine', serif;
+}
+
+section#about h2 {
+  padding-top: 160px;
+}
+
+
+#details-about {
+  background-color: #f3efec; //or #efefef
+  padding-top: 50px;
+  padding-bottom: 110px; //if I want to extend the details-about section shoerter, make it to 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.container-fluid {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.about-me-intro {
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+}
+
+section h2.heading {
+  margin-top: 0;
+  margin-bottom: 15px;
+  // color: #545e69;
+  font-size: 20px;
+}
+
+h2.heading {
+  letter-spacing: 0.25em;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ededed;
+}
+
+section#details-about.col-sm-offset-2 {
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+div.col-sm-4 .fa-lg {
+  font-size: 5.3em;
+}
+
+#projects img {
+  opacity: 1;
+}
+
+#projects img:hover {
+  opacity: 0.45;
+}
+
+.simple-caption p {
+  text-align: center;
+  font-family: fantasy;
+  margin-top: 12px;
+  font-weight: bolder;
+}
+
+a.btn-cta-primary, h3.btn-cta-primary {
+  // background: #54ba4e;
+  background: #9cd5cc;
+  border: 1px solid #54ba4e;
+  color: black;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+nav.navbar-default .navbar-nav>.active>a,
+nav.navbar-default .navbar-nav>.active>a:hover,
+nav.navbar-default .navbar-nav>.active>a:focus {
+  background-color: black;
+  color: #555;
+}
+
+nav.navbar-default .navbar-nav>li>a:hover,
+nav.navbar-default .navbar-nav>li>a:focus {
+  background-color: black;
+  color: #555;
+}
+
+#experience-wrapping {
+  // background-color:#f0f0f0;
+  // background-color:#f3efec;
+  background-color:#e7f3f2;
+  color: #847c77;
+}
+
+// #inner-section {
+//   // background-color: #fafafa;
+// }
+
+section div.well {
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+
+span.label {
+  font-size: 95%;
+  line-height: 2.1;
+  background-color: rgb(156, 213, 204);
+  color: black;
+}
+
+span.label-learning {
+  font-size: 95%;
+  line-height: 2.1;
+  // background-color: rgb(192, 68, 82);
+  background-color: rgb(255, 92, 97);
+}
+
+/* Info Section */
+.info .fa {
+  margin-right: 15px;
+  color: black;
+}
+.info .fa.fa-envelope-o {
+  font-size: 14px;
+}
+.info ul {
+  margin-bottom: 0;
+}
+.info li {
+  margin-bottom: 15px;
+}
+.info li:last-child {
+  margin-bottom: 0;
+}
+
+h4.title {
+    font-weight: 800;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.section .section-inner {
+  background: #fafafa;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+/* Education section */
+.education .item {
+  margin-bottom: 30px;
+}
+.education .item:last-child {
+  margin-bottom: 0;
+}
+.education .item .title {
+  font-size: 16px;
+  margin-top: 0;
+}
+.education .item .university {
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 14px;
+  color: #999999;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.education .item .university .year {
+  color: #b0b7bf;
+  font-weight: 500;
+}
+
+/* Work Section */
+.experience .item {
+  margin-bottom: 30px;
+}
+.experience .item .title {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  line-height: 1.5;
+}
+.experience .item .title .place {
+  color: #999999;
+  font-weight: normal;
+}
+.experience .item .title .place a {
+  color: #999999;
+}
+.experience .item .title .place a:hover {
+  color: #666666;
+}
+
+span.company, a.project-heading {
+  margin-left: 10px;
+  font-family: "Open Sans", arial, sans-serif;
+  font-size: 18px;
+  color: #999999;
+  font-family:inherit;
+  font-style: italic;
+}
+
+span.year {
+  color: #999999;
+  font-weight: normal;
+}
+
+ul#experience-description {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  line-height: 28px;
+}
+
+/* Programming Language Section */
+.languages .item {
+  margin-bottom: 15px;
+}
+.languages .item .title {
+  color: #778492;
+}
+.languages .item .level {
+  color: #999999;
+}
+.languages .item:last-child {
+  margin-bottom: 0;
+}
+.languages .item .fa {
+  color: #79d19a;
+}
+
+@media (min-width: 992px) {
+  .col-md-8 {
+    width: 66.66666667%;
+  }
+}
+
+.footer {
+  padding-bottom: 0px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  display:block;
+}
+
+.banner {
+    padding: 350px 0;
+    color: #f8f8f8;
+    // background: image-url("study.jpg") no-repeat center center;
+    background: image-url("flower.jpg") no-repeat center center;
+    // background: image-url("contact-background.png") no-repeat center center;
+    // background: image-url("akvaryum.jpg") no-repeat center center;
+    // background: image-url("bloom.jpg") no-repeat center center;
+    background-size: cover;
+    // opacity: 0.9;
+}
+
+#your-img {
+  height: auto;
+  width: auto;
+  max-width: 300px;
+  // max-height: 300px;
+}
+
+// .debug {
+//   border: 2px solid red; //debugging purpose
+// }
+//
+// .debug2 {
+//   border: 2px solid yellow; //debugging purpose
+// }
