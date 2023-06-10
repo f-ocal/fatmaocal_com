@@ -3,7 +3,7 @@ name: GitHub Actions Workflow
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
       - '*'
